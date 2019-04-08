@@ -12,7 +12,7 @@ class WanfangPipeline(object):
 
     def __init__(self):
         self.mysql_client = pymysql.Connect(
-            '127.0.0.1','root','ljh1314',
+            '118.24.255.219','root','123456',
             'wanwang',charset='utf8',
         )
 
